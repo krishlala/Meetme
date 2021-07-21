@@ -1,13 +1,15 @@
-var firebaseConfig = {
-  apiKey: "AIzaSyAzXszr_KtIYR8__aJWAyc4xAcQSOBBCBY",
-  authDomain: "chatroom-1af14.firebaseapp.com",
-  projectId: "chatroom-1af14",
-  storageBucket: "chatroom-1af14.appspot.com",
-  messagingSenderId: "676333239362",
-  appId: "1:676333239362:web:dbdab7373e54f8ab6ec1db"
-};
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+// Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDVI4pvt_MEqVLosXOq1espiDLis9a9d-Q",
+    authDomain: "chatroomreal.firebaseapp.com",
+    databaseURL: "https://chatroomreal-default-rtdb.firebaseio.com",
+    projectId: "chatroomreal",
+    storageBucket: "chatroomreal.appspot.com",
+    messagingSenderId: "585545969401",
+    appId: "1:585545969401:web:2e9656779d6c0a1d857c28"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
 
 
 	user_name = localStorage.getItem("user_name");
