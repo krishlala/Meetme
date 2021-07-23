@@ -17,6 +17,7 @@ function send()
 {
   msg = document.getElementById("msg").value;
   firebase.database().ref(room_name).push({
+	console.log("it worked!")
     name:user_name,
     message:msg,
     like:0
