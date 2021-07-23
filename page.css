@@ -112,3 +112,8 @@ h20
 {
 	color: #4285f4;
 }
+
+.user_tick img
+{
+	border-radius: 45px;
+}
