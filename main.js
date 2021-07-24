@@ -41,4 +41,13 @@ function addUser() {
     } else {
         console.log("In ELSE");
         }
+            location1 = document.getElementById("Location").value;
+
+        if (location1 == "Georgia") {
+            console.log("location in if");
+         location = document.getElementById("location").value;
+         localStorage.setItem("location", location);
+          window.location = "sports_room.html";
+        }
+
 }
