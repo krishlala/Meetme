@@ -22,6 +22,10 @@ function addUser() {
     
     localStorage.setItem("password", password);
     
+    location = document.getElementById("location").value;
+    
+    localStorage.setItem("location", location);
+  
     firebase.database().ref("/").child(password).update({
     purpose : "saving password"
   });
