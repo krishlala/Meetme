@@ -32,7 +32,9 @@ function addUser() {
     password2 = document.getElementById("password").value;
     console.log("Password22="+password2);
     console.log("Password ="+ password);
-    if (password == password2) {
+    location1 = document.getElementById("Location").value;
+    
+    if (password == password2 and location1 == "Georgia") {
         console.log("In IF");
          user_name = document.getElementById("user_name").value;
          localStorage.setItem("user_name", user_name);
@@ -41,13 +43,4 @@ function addUser() {
     } else {
         console.log("In ELSE");
         }
-            location1 = document.getElementById("Location").value;
-
-        if (location1 == "Georgia") {
-            console.log("location in if");
-         location = document.getElementById("location").value;
-         localStorage.setItem("location", location);
-          window.location = "sports_room_geo.html";
-        }
-
 }
