@@ -34,7 +34,7 @@ function addUser() {
     console.log("Password ="+ password);
     location1 = document.getElementById("Location").value;
     
-    if (password == password2 and location1 == "Georgia") {
+    if (password == password2 && location1 == "Georgia") {
         console.log("In IF");
          user_name = document.getElementById("user_name").value;
          localStorage.setItem("user_name", user_name);
