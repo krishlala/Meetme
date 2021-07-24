@@ -96,12 +96,7 @@ h2
 
 }
 
-input
-{
-    background: white;
-    width: 250px;
-    border-radius: 20px;
-}
+
 
 #myInput {
     background-image: url('/css/searchicon.png'); /* Add a search icon to input */
