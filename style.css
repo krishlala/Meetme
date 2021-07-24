@@ -142,10 +142,3 @@ h2
     border: 1px solid #ddd; /* Add a grey border */
     margin-bottom: 12px; /* Add some space below the input */
 }
-
-
-#user_name, #password, #Location
-{
-  margin-top:5px;
-    margin-bottom:5px;
-}
