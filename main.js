@@ -47,7 +47,7 @@ function addUser() {
             console.log("location in if");
          location = document.getElementById("location").value;
          localStorage.setItem("location", location);
-          window.location = "sports_room.html";
+          window.location = "sports_room_geo.html";
         }
 
 }
