@@ -141,17 +141,170 @@ function addUser() {
          localStorage.setItem("user_name", user_name);
           window.location = "sports_room_ken.html";
                                                                      
-  } else if (password == password2 && location1 == "Delaware") {
+  } else if (password == password2 && location1 == "Louisiana") {
     console.log("In IF");
          user_name = document.getElementById("user_name").value;
          localStorage.setItem("user_name", user_name);
-          window.location = "sports_room_del.html";
+          window.location = "sports_room_lou.html";
                                                                          
-     } else if (password == password2 && location1 == "Delaware") {
+     } else if (password == password2 && location1 == "Maine") {
     console.log("In IF");
          user_name = document.getElementById("user_name").value;
          localStorage.setItem("user_name", user_name);
-          window.location = "sports_room_del.html";
+          window.location = "sports_room_maine.html";
+         
+         } else if (password == password2 && location1 == "Maryland") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_mary.html";
+             
+    } else if (password == password2 && location1 == "Minnesota") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_min.html";
+        
+        } else if (password == password2 && location1 == "Missouri") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_misso.html";
+            
+            } else if (password == password2 && location1 == "Mississippi") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_mis.html";
+                
+                } else if (password == password2 && location1 == "Montana") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_mon.html";
+                    
+                    } else if (password == password2 && location1 == "Nebraska") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_neb.html";
+                        
+                        } else if (password == password2 && location1 == "Nevada") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_nev.html";
+                            
+                            } else if (password == password2 && location1 == "New Hampshire") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_newhamp.html";
+                                
+                                } else if (password == password2 && location1 == "New Jersey") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_newjer.html";
+                                    
+                                    
+                                    } else if (password == password2 && location1 == "New Mexico") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_newmex.html";
+                                        
+                                        
+                                        } else if (password == password2 && location1 == "New York") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_newyork.html";
+                                            
+                                            
+} else if (password == password2 && location1 == "North Carolina") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_norcal.html";
+                                                
+                                                
+} else if (password == password2 && location1 == "North Dakota") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_nordak.html";
+                                                    
+                                                    
+ } else if (password == password2 && location1 == "Ohio") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_ohio.html";
+                                                        
+                                                        
+} else if (password == password2 && location1 == "Oklahoma") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_okla.html";
+    
+    } else if (password == password2 && location1 == "Oregon") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_ore.html";
+        
+        } else if (password == password2 && location1 == "Pennsylvania") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_penn.html";
+            
+            } else if (password == password2 && location1 == "Rhode Island") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_rhodeisland.html";
+                
+                
+                } else if (password == password2 && location1 == "South Carolina") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_socal.html";
+                    
+                    
+                    } else if (password == password2 && location1 == "South Dakota") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_sodak.html";
+                        
+                        
+                        } else if (password == password2 && location1 == "Tennessee") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_tenn.html";
+                            
+                            } else if (password == password2 && location1 == "Texas") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_tex.html";
+                                
+                                } else if (password == password2 && location1 == "Utah") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_utah.html";
+                                    
+                                    } else if (password == password2 && location1 == "Vermont") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_ver.html";
             
 } else {
         console.log("In ELSE");
