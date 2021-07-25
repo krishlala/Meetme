@@ -300,11 +300,43 @@ function addUser() {
          localStorage.setItem("user_name", user_name);
           window.location = "sports_room_utah.html";
                                     
-                                    } else if (password == password2 && location1 == "Vermont") {
+} else if (password == password2 && location1 == "Vermont") {
     console.log("In IF");
          user_name = document.getElementById("user_name").value;
          localStorage.setItem("user_name", user_name);
           window.location = "sports_room_ver.html";
+    
+    } else if (password == password2 && location1 == "Viginia") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_vir.html";
+        
+        } else if (password == password2 && location1 == "Washington") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_wash.html";
+            
+            
+            } else if (password == password2 && location1 == "West Virginia") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_west.html";
+                
+                
+                } else if (password == password2 && location1 == "Wisconsin") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_wis.html";
+                    
+                    } else if (password == password2 && location1 == "Wyoming") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_wy.html";
             
 } else {
         console.log("In ELSE");
