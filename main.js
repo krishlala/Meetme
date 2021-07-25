@@ -40,7 +40,7 @@ function addUser() {
          localStorage.setItem("user_name", user_name);
           window.location = "sports_room_geo.html";
         
-        else if (password == password2 && location1 == "Alabama") {
+    } else if (password == password2 && location1 == "Alabama") {
         console.log("In IF");
          user_name = document.getElementById("user_name").value;
          localStorage.setItem("user_name", user_name);
