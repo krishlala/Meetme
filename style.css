@@ -157,6 +157,8 @@ h2
     background-image: none;
     border: 1px solid #ccc;
     border-radius: 4px;
+    margin-top: 5px;
+
 }
 
 #password {
@@ -171,6 +173,7 @@ h2
     background-image: none;
     border: 1px solid #ccc;
     border-radius: 4px;
+    margin-top: 5px;
 }
 
 #Location {
@@ -185,4 +188,5 @@ h2
     background-image: none;
     border: 1px solid #ccc;
     border-radius: 4px;
+    margin-top: 5px;
 }
