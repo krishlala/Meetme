@@ -113,6 +113,7 @@ button
     background-image: none;
     border: 1px solid #ccc;
     border-radius: 4px;
+    margin-top: 5px;
 }
 
 #user_name {
@@ -127,6 +128,7 @@ button
     background-image: none;
     border: 1px solid #ccc;
     border-radius: 4px;
+    margin-top: 5px;
 }
 
 #Location {
