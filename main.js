@@ -74,6 +74,18 @@ function addUser() {
          user_name = document.getElementById("user_name").value;
          localStorage.setItem("user_name", user_name);
           window.location = "sports_room_colo.html";
+                        
+                        } else if (password == password2 && location1 == "Connecticut") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_con.html";
+                            
+                             } else if (password == password2 && location1 == "Delaware") {
+    console.log("In IF");
+         user_name = document.getElementById("user_name").value;
+         localStorage.setItem("user_name", user_name);
+          window.location = "sports_room_del.html";
             
 } else {
         console.log("In ELSE");
