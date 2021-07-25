@@ -39,13 +39,13 @@ function addUser() {
          user_name = document.getElementById("user_name").value;
          localStorage.setItem("user_name", user_name);
           window.location = "sports_room_geo.html";
-        
-    } else if (password == password2 && location1 == "Alabama") {
-        console.log("In IF");
+} else if (password == password2 && location1 == "Alabama") {
+    console.log("In IF");
          user_name = document.getElementById("user_name").value;
          localStorage.setItem("user_name", user_name);
           window.location = "sports_room_ala.html";
-    } else {
+} else {
         console.log("In ELSE");
-        }
+}
+
 }
