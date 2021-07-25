@@ -117,29 +117,29 @@ function addUser() {
          localStorage.setItem("user_name", user_name);
           window.location = "sports_room_ill.html";
                                                      
- } else if (password == password2 && location1 == "Delaware") {
+ } else if (password == password2 && location1 == "Indiana") {
     console.log("In IF");
          user_name = document.getElementById("user_name").value;
          localStorage.setItem("user_name", user_name);
-          window.location = "sports_room_del.html";
+          window.location = "sports_room_ind.html";
                                                          
-} else if (password == password2 && location1 == "Delaware") {
+} else if (password == password2 && location1 == "Iowa") {
     console.log("In IF");
          user_name = document.getElementById("user_name").value;
          localStorage.setItem("user_name", user_name);
-          window.location = "sports_room_del.html";
+          window.location = "sports_room_iowa.html";
                                                              
-} else if (password == password2 && location1 == "Delaware") {
+} else if (password == password2 && location1 == "Kansas") {
     console.log("In IF");
          user_name = document.getElementById("user_name").value;
          localStorage.setItem("user_name", user_name);
-          window.location = "sports_room_del.html";
+          window.location = "sports_room_kan.html";
                                                                  
- } else if (password == password2 && location1 == "Delaware") {
+ } else if (password == password2 && location1 == "Kentucky") {
     console.log("In IF");
          user_name = document.getElementById("user_name").value;
          localStorage.setItem("user_name", user_name);
-          window.location = "sports_room_del.html";
+          window.location = "sports_room_ken.html";
                                                                      
   } else if (password == password2 && location1 == "Delaware") {
     console.log("In IF");
