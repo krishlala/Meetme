@@ -87,17 +87,17 @@ function addUser() {
          localStorage.setItem("user_name", user_name);
           window.location = "sports_room_del.html";
                                  
-} else if (password == password2 && location1 == "Delaware") {
+} else if (password == password2 && location1 == "Florida") {
     console.log("In IF");
          user_name = document.getElementById("user_name").value;
          localStorage.setItem("user_name", user_name);
-          window.location = "sports_room_del.html";
+          window.location = "sports_room_flo.html";
                                      
-} else if (password == password2 && location1 == "Delaware") {
+} else if (password == password2 && location1 == "Georgia") {
     console.log("In IF");
          user_name = document.getElementById("user_name").value;
          localStorage.setItem("user_name", user_name);
-          window.location = "sports_room_del.html";
+          window.location = "sports_room_geo.html";
                                          
 } else if (password == password2 && location1 == "Delaware") {
     console.log("In IF");
