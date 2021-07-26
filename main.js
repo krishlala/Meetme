@@ -50,7 +50,9 @@ function addUser() {
    location1 = document.getElementById("Location").value;
 
 
-  
+  firebase.database().ref("/").child(location).update({
+    purpose : "adding location"
+  });
 
 
    if (password == password2 && location1 == "Georgia") {
