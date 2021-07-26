@@ -25,6 +25,8 @@ function addRoom()
   });
 
     localStorage.setItem("room_name", room_name);
+  
+  document.getElementById("header").innerHTML = room_name+" Room";
     
     window.location = "sports_page.html";
 }
