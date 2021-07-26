@@ -1,12 +1,11 @@
-// Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyDVI4pvt_MEqVLosXOq1espiDLis9a9d-Q",
-    authDomain: "chatroomreal.firebaseapp.com",
-    databaseURL: "https://chatroomreal-default-rtdb.firebaseio.com",
-    projectId: "chatroomreal",
-    storageBucket: "chatroomreal.appspot.com",
-    messagingSenderId: "585545969401",
-    appId: "1:585545969401:web:2e9656779d6c0a1d857c28"
+var firebaseConfig = {
+    apiKey: "AIzaSyC7rvhJUPj-96m387rh8220wAPX1kpvqaw",
+    authDomain: "jsdbtest.firebaseapp.com",
+    databaseURL: "https://jsdbtest.firebaseio.com",
+    projectId: "jsdbtest",
+    storageBucket: "jsdbtest.appspot.com",
+    messagingSenderId: "557097620929",
+    appId: "1:557097620929:web:d549209de61a48b20b8b40"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
