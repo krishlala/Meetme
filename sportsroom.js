@@ -26,7 +26,6 @@ function addRoom()
 
     localStorage.setItem("room_name", room_name);
   
-  roomname = room_name;
     
     window.location = "sports_page.html";
 }
