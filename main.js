@@ -50,11 +50,6 @@ function addUser() {
    location1 = document.getElementById("Location").value;
 
 
-  firebase.database().ref("/").child(room_name).update({
-    purpose : "adding room name"
-  });
-
-
    if (password == password2 && location1 == "Georgia") {
 
 
@@ -67,10 +62,7 @@ function addUser() {
         localStorage.setItem("user_name", user_name);
        room_name = document.getElementById("room_name").value;
 
-  firebase.database().ref("/").child(room_name).update({
-    purpose : "adding room name"
-  });
-
+  
     localStorage.setItem("room_name", room_name);
     
 
