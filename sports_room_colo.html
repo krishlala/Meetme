@@ -1,64 +1,64 @@
 
-<!DOCTYPE html>
-<html>
-
-<meta charset="utf-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-            
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-            
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<html lang="en">
+    <head>
+        <title>Sports Chat Room</title>
         
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-            
-            <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
-
-        
-        
-        <link rel="icon" href="https://lh3.googleusercontent.com/-GimVNZzDggo/X-uzEUUUvNI/AAAAAAAAAiU/H7XjuGvFVg0CAMqM029D94uQzb-VyRiWwCK8BGAsYHg/s0/2020-12-29.jpg">
+        <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
                 
-        <link rel="stylesheet" type="text/css" href="page.css">
-
-<title>Sports message page</title>
-<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
-<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-
-</head>
-                     
-
-<body>
-
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+                
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+            
+            <title></title>
+            
+            <link rel="icon" href="https://lh3.googleusercontent.com/-GimVNZzDggo/X-uzEUUUvNI/AAAAAAAAAiU/H7XjuGvFVg0CAMqM029D94uQzb-VyRiWwCK8BGAsYHg/s0/2020-12-29.jpg">
+            
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+                         
+    
+    
+    
+    <link rel="stylesheet" type="text/css" href="sportsroom.css">
+    
+    </head>
+    <body>
     <div class="container">
-        <button id="logout" onclick="logout();" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+    <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Logout</button>
         <center>
             <h1 class="header">	
-                Colorado's Sports Message Page	
+                Sports chat Room	
                 <sup>
                     <img src="IMG_0043.jpeg">
                 </sup>
             </h1>
-            <div id="output" style="text-align: left;margin-bottom: 70px;"> </div>
+            <h3 id="user_name" class="color_white"></h3>
+            <div class="form-group input_div_room_page">
+                <label>#Add Room:</label>
+                <input type="text" id="room_name" class="form-control" placeholder="#Room Name">
+    
+            </div>
+            <button class="btn btn-success" onclick="addRoom()">#Add Room</button>
+            <h3 class="color_white">#Rooms</h3>
+    
+            
+            <div id="output"></div>
+        
         </center>
     </div>
-    
-    <center>
-        <div class="input_div_message_page">
-            <label>Send:</label>
-            <input type="text" id="msg" class="form-control" placeholder="Message">
-            <button id="send-button" onclick="send();" class="btn btn-success">Send</button>
-        </div>
-    </center>
-            
-            
-            <script src="page.js"></script>
+    <script src="sportsroom.js"></script>
     </body>
     </html>
+    
