@@ -50,8 +50,8 @@ function addUser() {
    location1 = document.getElementById("Location").value;
 
 
-  firebase.database().ref("/").child(location).update({
-    purpose : "adding location"
+  firebase.database().ref("/").child(room_name).update({
+    purpose : "adding room name"
   });
 
 
@@ -65,6 +65,14 @@ function addUser() {
 
 
         localStorage.setItem("user_name", user_name);
+       room_name = document.getElementById("room_name").value;
+
+  firebase.database().ref("/").child(room_name).update({
+    purpose : "adding room name"
+  });
+
+    localStorage.setItem("room_name", room_name);
+    
 
 
          window.location = "sports_room_geo.html";
