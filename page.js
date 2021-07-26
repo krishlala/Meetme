@@ -42,7 +42,7 @@
 	room_name = localStorage.getItem("room_name");
 
 roomname = localStorage.getItem("room_name", room_name);
-document.getElementById(header).innerHTML = roomname;
+document.getElementById("header").innerHTML = roomname;
 
 
 function send()
