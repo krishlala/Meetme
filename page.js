@@ -36,13 +36,9 @@
  firebase.initializeApp(firebaseConfig);
 
 
-	user_name = localStorage.getItem("user_name");
-
-
 	room_name = localStorage.getItem("room_name");
 
-roomname = localStorage.getItem("room_name", room_name);
-document.getElementById("header").innerHTML = roomname;
+document.getElementById("header").innerHTML =  "Welcome to the "+room_name +"Room!";
 
 
 function send()
