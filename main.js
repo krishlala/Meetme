@@ -983,6 +983,7 @@ function addUser() {
 
 
 
+function picupload() {
 
 window.addEventListener('load', function() {
   document.querySelector('input[type="file"]').addEventListener('change', function() {
@@ -996,3 +997,4 @@ window.addEventListener('load', function() {
       }
   });
 });
+}
