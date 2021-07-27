@@ -16,6 +16,9 @@ firebase.initializeApp(firebaseConfig);
 
 document.getElementById("user_name").innerHTML = "Welcome " + user_name + "!";
 
+localStorage.setItem("preview", preview);
+document.getElementById("img").src = preview;
+
 function addRoom()
 {
   room_name = document.getElementById("room_name").value;
