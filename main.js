@@ -985,18 +985,22 @@ function addUser() {
 
 
 
-function picupload() {
-
-window.addEventListener('load', function() {
-  document.querySelector('input[type="file"]').addEventListener('change', function() {
-      if (this.files && this.files[0]) {
-          var img = document.querySelector('img');
-          img.onload = () => {
-              URL.revokeObjectURL(img.src);  // no longer needed, free memory
-          }
-
-          img.src = URL.createObjectURL(this.files[0]); // set src to blob url
-      }
-  });
-});
+var number = 1;
+do {
+  function showPreview(event, number){
+    if(event.target.files.length > 0){
+      let src = URL.createObjectURL(event.target.files[0]);
+      let preview = document.getElementById("file-ip-"+number+"-preview");
+      preview.src = src;
+      preview.style.display = "block";
+      var profile = document.getElementById("file-ip-1-preview").value;
+      localStorage.setItem("profile", profile);
+    } 
+  }
+  function myImgRemove(number) {
+      document.getElementById("file-ip-"+number+"-preview").src = "https://i.ibb.co/ZVFsg37/default.png";
+      document.getElementById("file-ip-"+number).value = null;
+    }
+  number++;
 }
+while (number < 5);
