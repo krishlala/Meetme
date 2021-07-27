@@ -60,10 +60,8 @@ function addUser() {
 
 
         localStorage.setItem("user_name", user_name);
-       room_name = document.getElementById("room_name").value;
 
   
-    localStorage.setItem("room_name", room_name);
     
 
 
