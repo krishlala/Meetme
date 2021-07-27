@@ -993,8 +993,7 @@ do {
       let preview = document.getElementById("file-ip-"+number+"-preview");
       preview.src = src;
       preview.style.display = "block";
-      var profile = document.getElementById("file-ip-1-preview").value;
-      localStorage.setItem("profile", profile);
+      localStorage.setItem("preview", preview);
     } 
   }
   function myImgRemove(number) {
