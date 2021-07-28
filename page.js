@@ -65,6 +65,8 @@ $("#imageUpload").change(function(){
     fasterPreview( this );
 });
 
+var profileimg = document.getElementById("profileImage").value;
+
 function getData() { firebase.database().ref("/"+room_name).on('value', function(snapshot) { document.getElementById("output").innerHTML = ""; snapshot.forEach(function(childSnapshot) { childKey  = childSnapshot.key; childData = childSnapshot.val(); if(childKey != "purpose") {
          firebase_message_id = childKey;
          message_data = childData;
@@ -74,7 +76,7 @@ function getData() { firebase.database().ref("/"+room_name).on('value', function
 	       name = message_data['name'];
 	       message = message_data['message'];
          like = message_data['like'];
-         name_with_tag = "<h4> "+ name +"<img class='user_tick' src="+this+"></h4>";
+         name_with_tag = "<h4> "+ name +"<img class='user_tick' src="+profileImage+"></h4>";
          message_with_tag = "<h4 class='message_h4'>" + message + "</h4>";
 like_button ="<button class='btn btn-warning' id="+firebase_message_id+" value="+like+" onclick='updateLike(this.id)'>";
          span_with_tag = "<span class='glyphicon glyphicon-thumbs-up'>Like: "+ like +"</span></button><hr>";
