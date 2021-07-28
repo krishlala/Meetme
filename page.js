@@ -65,7 +65,7 @@ $("#imageUpload").change(function(){
     fasterPreview( this );
 });
 
-var profileimg = document.getElementById("profileImage").value;
+var profileimg = document.getElementById("imageUpload").value;
 
 function getData() { firebase.database().ref("/"+room_name).on('value', function(snapshot) { document.getElementById("output").innerHTML = ""; snapshot.forEach(function(childSnapshot) { childKey  = childSnapshot.key; childData = childSnapshot.val(); if(childKey != "purpose") {
          firebase_message_id = childKey;
